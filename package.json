@@ -8,6 +8,8 @@
   "scripts": {
     "create": "node ./scripts/create-template.js",
     "test": "jest ./tasks/$(date +'%Y-%m-%d')/index.test.ts",
+    "test_day1": "jest ./tasks/2023-12-01/index.test.ts",
+    "test_day2": "jest ./tasks/2023-12-02/index.test.ts",
     "test:all": "jest"
   },
   "devDependencies": {
